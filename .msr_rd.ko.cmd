@@ -1,0 +1,1 @@
+cmd_/home/martin/msr_mod/msr_rd.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/martin/msr_mod/msr_rd.ko /home/martin/msr_mod/msr_rd.o /home/martin/msr_mod/msr_rd.mod.o ;  true
